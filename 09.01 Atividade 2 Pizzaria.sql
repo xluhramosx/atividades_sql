@@ -1,6 +1,3 @@
-DROP DATABASE db_pizzaria_legal;
-DROP TABLE tb_categoria;
-DROP TABLE tb_pizza;
 CREATE DATABASE db_pizzaria_legal;
 USE db_pizzaria_legal;
 
@@ -36,6 +33,7 @@ VALUES ("Calabresa", 39.99, "Grande", "1"),
 ("Frango com Catupiry", 49.99, "Grande", "1"),
 ("Nutella", 79.99, "Broto", "2");
 SELECT*FROM tb_pizzas;
+
 SELECT*FROM tb_pizzas WHERE valor > 45.00;
 SELECT*FROM  tb_pizzas WHERE valor BETWEEN 50.00 AND 100.00;
 
